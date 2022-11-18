@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>E-Study</title>
 
-  <link href="dist/css/bootstrap-colorpicker.css" rel="stylesheet">
+  <link href="/dist/css/bootstrap-colorpicker.css" rel="stylesheet">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
   <!-- logo bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <!-- CSS only -->
@@ -24,7 +24,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src="dist/img/logo-estudy.png" alt="AdminLTELogo" height="180" width="180">
+    <img class="animation__wobble" src="/dist/img/logo-estudy.png" alt="AdminLTELogo" height="180" width="180">
   </div>
 
   <!-- Navbar -->
@@ -73,7 +73,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link text-decoration-none">
-      <img src="dist/img/logo-estudy.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="/dist/img/logo-estudy.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">E-Study</span>
     </a>
 
@@ -82,7 +82,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex dropdown-toogle" role="button" data-toggle="dropdown">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <span>Admin</span>
@@ -122,7 +122,19 @@
               <li class="nav-item">
                 <a href="/intro" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Intro</p>
+                  <p>Intro 1</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/intro1" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Intro 2</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/intro2" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Intro 3</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -155,28 +167,28 @@
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+<script src="/dist/js/adminlte.js"></script>
 
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
-<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
-<script src="plugins/raphael/raphael.min.js"></script>
-<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
-<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<script src="/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="/plugins/raphael/raphael.min.js"></script>
+<script src="/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="/plugins/jquery-mapael/maps/usa_states.min.js"></script>
 <!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="/plugins/chart.js/Chart.min.js"></script>
 
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard2.js"></script>
+<script src="/dist/js/pages/dashboard2.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script src="dist/js/bootstrap-colorpicker.js"></script>
+<script src="/dist/js/bootstrap-colorpicker.js"></script>
 </body>
 </html>

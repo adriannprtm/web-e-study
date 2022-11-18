@@ -31,8 +31,8 @@
                         <td>{{$data ['name'] }}</td>
                         <td>{{$data ['gender'] }}</td>
                         <td style="text-align:center"><a href="#"><i style="color:white;" class="bi bi-three-dots"></i></a></td>
-                        <td style="text-align:center"><a href="#"><i style="color:white;" class="bi bi-pencil-square"></i></a></td>
-                        <td style="text-align:center"><i style="cursor:pointer;" data-toggle="modal" data-target="#Hapus" style="color:white;" class="bi bi-trash-fill"></a></td>
+                        <td style="text-align:center"><a href="/edit_pengguna/{{ $data->id()}}"><i style="color:white;" class="bi bi-pencil-square"></i></a></td>
+                        <td style="text-align:center"><i style="cursor:pointer;" data-toggle="modal" data-target="#Hapus{{ $data->id() }}" style="color:white;" class="bi bi-trash-fill"></a></td>
                     </tr>
                         @endforeach
                     </tbody>
@@ -41,7 +41,7 @@
         </div>
 
         @foreach ($user as $data)
-        <div class="modal fade" id="Hapus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="Hapus{{ $data->id() }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
             <div class="modal-header">

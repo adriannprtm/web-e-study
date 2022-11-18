@@ -26,26 +26,20 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/intro', function () {
-    return view('tampilan.intro');
-});
-
 Route::get('/beranda', function ()
 {
     return view('tampilan.beranda');
-});
-
-Route::get('/insert',function(){
-    $stuRef = app('firebase.firestore')->database()->collection('Pengguna')->newDocument();
-    $stuRef->set([
-        'nama' => 'ian',
-        'alamat' => 'gumuruh',
-        'umur' => '18'
-    ]);
 });
 
 //pengguna
 Route::get('/pengguna', [HomeController::class, 'pengguna']);
 Route::get('/create_pengguna', [HomeController::class, 'create_pengguna']);
 Route::post('/pengguna/store', [HomeController::class, 'store_pengguna']);
+Route::get('/edit_pengguna/{id}', [HomeController::class, 'edit_pengguna']);
+Route::put('/pengguna/update/{id}', [HomeController::class, 'update_pengguna']);
 Route::get('/delete/pengguna/{id}', [HomeController::class, 'hapus_pengguna']);
+
+//intro
+Route::get('/intro', [HomeController::class, 'intro']);
+Route::get('/intro1', [HomeController::class, 'intro1']);
+Route::get('/intro2', [HomeController::class, 'intro2']);

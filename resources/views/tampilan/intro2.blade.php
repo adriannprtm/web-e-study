@@ -23,7 +23,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td><img src="{{ $intro ['image'] }}" ></td>
+                        <td>{{ $intro ['image'] }}</td>
                         <td>{{ $intro ['title'] }}</td>
                         <td>{{ $intro ['desc'] }}</td>
                         <td style="text-align:center"><a href="#"><i style="color:white;" class="bi bi-pencil-square"></i></a></td>
